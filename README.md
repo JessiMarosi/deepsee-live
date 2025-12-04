@@ -1,6 +1,8 @@
 # deepsee-live
 Official landing page for DeepSee™ – the fully on-device AI content detector (images, videos, audio). No cloud. No data collection.
 
+[▶️ Launch Cockpit](https://github.com/JessiMarosi/deepsee-live/tree/main/cockpit)
+
 # DeepSee
 
 DeepSee is a privacy-first, fully on-device AI content detector for images, videos, and audio.  
