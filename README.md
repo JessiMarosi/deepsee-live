@@ -30,7 +30,6 @@ Verdict logic is strictly binary: only `"THIS IMAGE IS LIKELY AI"` or `"THIS IMA
 
 These images serve as public proof that DeepSee™ is operational, reproducible, and audit-grade.
 
-
 Each image was processed using:
 - `classify_tflite.py` for image-based inference
 - `deepsee_pipeline.py` for verdict enforcement
