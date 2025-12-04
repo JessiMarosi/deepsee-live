@@ -11,14 +11,25 @@ DeepSee™ runs fully on-device, classifying images with calibrated confidence a
 - **THIS IMAGE IS LIKELY AI**
 - **THIS IMAGE IS LIKELY LEGITIMATE**
 
-### 🧪 Proof of Operation
+## 🧪 Proof of Operation: Real Image Classification
 
-Below are two test images run through the cockpit:
+These two images were run through the DeepSee™ cockpit to demonstrate forensic classification in action:
 
-| Image | Final Verdict | Confidence |
-|-------|----------------|------------|
-| ![Proof 1](deppsee_deliverable_proof1.jpg) | THIS IMAGE IS LIKELY AI | 98.61% |
-| ![Proof 2](deppsee_deliverable_proof2.jpg) | THIS IMAGE IS LIKELY LEGITIMATE | 98.62% |
+| Input Image | Final Verdict | Confidence |
+|-------------|----------------|------------|
+| ![Likely AI](docs/proof_ai.jpg) | THIS IMAGE IS LIKELY AI | 98.61% |
+| ![Likely Legitimate](docs/proof_legit.jpg) | THIS IMAGE IS LIKELY LEGITIMATE | 98.62% |
+
+Each image was processed using:
+- `classify_tflite.py` for raw model inference
+- `deepsee_pipeline.py` for verdict enforcement
+- `launch_gui.py` for cockpit display
+
+All results are logged to `decisions.csv` and reproducible via CLI or GUI.  
+Verdict logic is strictly binary: only `"THIS IMAGE IS LIKELY AI"` or `"THIS IMAGE IS LIKELY LEGITIMATE"` are possible.
+
+These images serve as public proof that DeepSee™ is operational, reproducible, and audit-grade.
+
 
 Each image was processed using:
 - `classify_tflite.py` for image-based inference
