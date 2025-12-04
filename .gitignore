@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+venv/
+.venv/
+DeepSeeEnv/
+
+cockpit/models/
+cockpit/tflite/*.tflite
+
+cockpit/scripts/logs/
+cockpit/scripts/*.db
