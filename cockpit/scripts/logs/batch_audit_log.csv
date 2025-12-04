@@ -1,0 +1,5 @@
+timestamp,processed,errors,results_file
+2025-12-02T15:11:54.637755,96,0,C:\Users\jsmar\DeepSee\logs\batch_test_results.csv
+2025-12-02T16:30:56.989170,0,96,C:\Users\jsmar\DeepSee\logs\batch_test_results.csv
+2025-12-02T16:30:57.859316,success
+2025-12-03T14:16:26.238167,0,96,C:\Users\jsmar\DeepSee\logs\batch_test_results.csv
