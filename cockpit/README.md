@@ -19,9 +19,23 @@ Unlike cloud‑based detectors, this pipeline runs locally, logs every step, and
 
 object_detection.py → classify_tflite.py → deepsee_pipeline.py (features) (probabilities) (calibration + verdict) ↓ trainer_meta.py (DB logging) ↓ launch_gui.py (Gradio cockpit)
 
-Code
-
 ---
+
+## 🧪 Cockpit Demo: Human vs AI Image Classification
+
+This screenshot shows the DeepSee™ cockpit in action, classifying an uploaded image with calibrated confidence:
+
+![Cockpit Demo](../docs/cockpit_demo.png)
+
+- **Final Verdict**: THIS IMAGE IS LIKELY LEGITIMATE
+- **Confidence**: 98.62%
+- **Semantic Analysis**: No anomalies detected
+
+Verdict logic is enforced via `deepsee_pipeline.py`, ensuring only two outcomes:
+- `"THIS IMAGE IS LIKELY AI"`
+- `"THIS IMAGE IS LIKELY LEGITIMATE"`
+
+All components run locally, log every step, and produce reproducible audit trails.
 
 ## Quickstart
 
