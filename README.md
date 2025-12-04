@@ -3,6 +3,34 @@ Official landing page for DeepSee™ – the fully on-device AI content detector
 
 [▶️ Launch Cockpit](https://github.com/JessiMarosi/deepsee-live/tree/main/cockpit)
 
+## ✅ Cockpit Verdict Proof: Human vs AI Classification
+
+DeepSee™ runs fully on-device, classifying images with calibrated confidence and semantic analysis — no cloud, no data collection. The cockpit enforces strict verdict logic: only two outcomes are possible.
+
+### 🔍 Verdict Logic
+- **THIS IMAGE IS LIKELY AI**
+- **THIS IMAGE IS LIKELY LEGITIMATE**
+
+### 🧪 Proof of Operation
+
+Below are two test images run through the cockpit:
+
+| Image | Final Verdict | Confidence |
+|-------|----------------|------------|
+| ![Proof 1](deppsee_deliverable_proof1.jpg) | THIS IMAGE IS LIKELY AI | 98.61% |
+| ![Proof 2](deppsee_deliverable_proof2.jpg) | THIS IMAGE IS LIKELY LEGITIMATE | 98.62% |
+
+Each image was processed using:
+- `classify_tflite.py` for image-based inference
+- `deepsee_pipeline.py` for verdict enforcement
+- `launch_gui.py` for cockpit display
+
+All results are logged to `decisions.csv` and can be reproduced via the CLI or the GUI.
+
+---
+
+This section proves that DeepSee™ delivers consistent, audit-grade verdicts with no fallback strings or ambiguous outputs. Recruiters and reviewers can verify the logic, trace the pipeline, and replicate the results locally.
+
 # DeepSee
 
 DeepSee is a privacy-first, fully on-device AI content detector for images, videos, and audio.  
