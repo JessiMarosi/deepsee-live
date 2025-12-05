@@ -1,5 +1,6 @@
 # deepsee-live
 Official landing page for DeepSee™ – the fully on-device AI content detector (images, videos, audio). No cloud. No data collection.
+
 ## 🎥 Demo Video
 
 Watch DeepSee™ in action — cockpit verdicts, GUI walkthrough, and reproducible inference:
@@ -10,7 +11,6 @@ This demo showcases:
 - Real-time classification of AI vs legitimate images
 - Binary verdict enforcement (`LIKELY AI` / `LIKELY LEGITIMATE`)
 - GUI interface with audit-grade logging and reproducible results
-
 
 [▶️ Launch Cockpit](https://github.com/JessiMarosi/deepsee-live/tree/main/cockpit)
 
