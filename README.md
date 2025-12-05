@@ -5,7 +5,7 @@ Official landing page for DeepSee™ – the fully on-device AI content detector
 
 Watch DeepSee™ in action — cockpit verdicts, GUI walkthrough, and reproducible inference:
 
-[▶️ Watch on YouTube](https://youtu.be/5QtJtWQY8X8)
+[▶️ Watch on YouTube](https://youtu.be/ntOkek5MnxE)
 
 This demo showcases:
 - Real-time classification of AI vs legitimate images
