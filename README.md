@@ -6,6 +6,7 @@ Official landing page for DeepSee™ – the fully on-device AI content detector
 ## Mission
 
 DeepSee™ is designed to restore trust in digital content by offering reproducible, on-device forensic classification.  
+
 Built by Jessica S. Marosi, Founder of ByteLock™, this cockpit enforces binary verdict logic, logs every decision, and operates without cloud dependencies — ensuring privacy, reproducibility, and audit-grade transparency.
 
 ## ✅ Cockpit Verdict Proof: Human vs AI Classification
