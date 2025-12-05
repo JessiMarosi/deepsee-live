@@ -3,13 +3,22 @@ Official landing page for DeepSee™ – the fully on-device AI content detector
 
 [▶️ Launch Cockpit](https://github.com/JessiMarosi/deepsee-live/tree/main/cockpit)
 
+## Mission
+
+DeepSee™ is designed to restore trust in digital content by offering reproducible, on-device forensic classification.  
+Built by Jessica S. Marosi, Founder of ByteLock™, this cockpit enforces binary verdict logic, logs every decision, and operates without cloud dependencies — ensuring privacy, reproducibility, and audit-grade transparency.
+
 ## ✅ Cockpit Verdict Proof: Human vs AI Classification
 
 DeepSee™ runs fully on-device, classifying images with calibrated confidence and semantic analysis — no cloud, no data collection. The cockpit enforces strict verdict logic: only two outcomes are possible.
 
-### 🔍 Verdict Logic
-- **THIS IMAGE IS LIKELY AI**
-- **THIS IMAGE IS LIKELY LEGITIMATE**
+## Verdict Logic
+
+DeepSee™ enforces strict binary classification:
+- `THIS IMAGE IS LIKELY AI`
+- `THIS IMAGE IS LIKELY LEGITIMATE`
+
+No fallback strings. No ambiguity. Every verdict is logged and reproducible.
 
 ## 🧪 Proof of Operation: Real Image Classification
 
@@ -63,6 +72,10 @@ The `cockpit/` folder contains the operational pipeline behind DeepSee™, desig
 - **Audit‑grade logging** to SQLite (`deepsee_trainer.db`) with reproducible decision trails
 - **GUI interface** built with Gradio (`launch_gui.py`) for public‑facing demonstrations
 - **Fully reproducible, on‑device inference** — no cloud dependencies, no data leakage
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ### Proof of Operation
 DeepSee™ cockpit has been tested with both AI‑generated and legitimate images, producing consistent verdicts with >98% confidence.  
