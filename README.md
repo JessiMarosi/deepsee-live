@@ -1,4 +1,4 @@
-# deepsee-live
+# DeepSee-live
 **DeepSee™ – Fully On-Device AI Content Detector**  
 **No cloud • No data collection • Strict binary forensic verdicts**
 
@@ -26,7 +26,7 @@ deepsee-live/
 ├── LICENSE            # MIT License
 └── README.md
 
-## Cockpit Features
+# DeepSee-live Cockpit Features
 
 | Feature                   | Implementation                                      |
 |---------------------------|-----------------------------------------------------|
