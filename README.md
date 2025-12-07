@@ -2,7 +2,7 @@
 **DeepSee™ – Fully On-Device AI Content Detector**  
 **No cloud • No data collection • Strict binary forensic verdicts**
 
-Official repository and live cockpit for **DeepSee™** — privacy-first, reproducible, audit-grade AI content classifier (images, videos, audio). 100% on-device.
+Official repository and live cockpit for DeepSee™ — privacy-first, reproducible, audit-grade AI content classifier (images, videos, audio). 100% on-device inference.
 
 [![Watch Demo](https://img.shields.io/badge/Watch_Demo-FF0000?style=for-the-badge&logo=youtube)](https://youtu.be/ntOkek5MnxE)
 [![Launch Cockpit](https://img.shields.io/badge/Launch_Cockpit-000000?style=for-the-badge&logo=github)](https://github.com/JessiMarosi/deepsee-live/tree/main/cockpit)
@@ -10,16 +10,17 @@ Official repository and live cockpit for **DeepSee™** — privacy-first, repro
 
 ## Repository Structure
 
+```text
 deepsee-live/
 ├── cockpit/           # Live GUI, pipeline, verdict engine (launch_gui.py)
 ├── Configs/           # Thresholds, verdict templates, inference settings
 ├── Diagrams/          # Architecture & on-device processing flow
-├── Evidence/          # Sample inputs + reproducible reports
+├── Evidence/          # Sample inputs + reproducible classification reports
 ├── Images/            # Logos, screenshots, demo assets
 ├── Pages/             # Source for GitHub Pages landing page
 ├── Scripts/           # classify_tflite.py, deepsee_pipeline.py, etc.
-├── docs/              # Proof images and detailed forensic reports
-├── index.html         # Public site → https://deepsee.live
+├── docs/              # Proof images + detailed forensic reports
+├── index.html         # Public landing → https://deepsee.live
 ├── requirements.txt   # Python dependencies
 ├── CNAME              # Custom domain
 ├── LICENSE            # MIT License
