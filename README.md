@@ -25,8 +25,6 @@ Highlights:
 
 ## Repository Structure
 
----
-
 ## Cockpit – Forensic Classification in Action
 
 The `cockpit/` directory is the heart of DeepSee™:
