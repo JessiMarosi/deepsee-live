@@ -8,25 +8,7 @@ Official repository and live cockpit for DeepSee™ — privacy-first, reproduci
 [![Launch Cockpit](https://img.shields.io/badge/Launch_Cockpit-000000?style=for-the-badge&logo=github)](https://github.com/JessiMarosi/deepsee-live/tree/main/cockpit)
 [![Live Site](https://img.shields.io/badge/deepsee.live-0066FF?style=for-the-badge)](https://deepsee.live)
 
-## Repository Structure
-
-```text
-deepsee-live/
-├── cockpit/           # Live GUI, pipeline, verdict engine (launch_gui.py)
-├── Configs/           # Thresholds, verdict templates, inference settings
-├── Diagrams/          # Architecture & on-device processing flow
-├── Evidence/          # Sample inputs + reproducible classification reports
-├── Images/            # Logos, screenshots, demo assets
-├── Pages/             # Source for GitHub Pages landing page
-├── Scripts/           # classify_tflite.py, deepsee_pipeline.py, etc.
-├── docs/              # Proof images + detailed forensic reports
-├── index.html         # Public landing → https://deepsee.live
-├── requirements.txt   # Python dependencies
-├── CNAME              # Custom domain
-├── LICENSE            # MIT License
-└── README.md
-
-**## DeepSee-live Cockpit Features**
+DeepSee-live Cockpit Features
 
 | Feature                   | Implementation                                      |
 |---------------------------|-----------------------------------------------------|
@@ -53,3 +35,20 @@ python cockpit/launch_gui.py
 Or visit the live demo instantly → https://deepsee.liveMissionRestore trust in digital media with transparent, private, and fully reproducible forensic AI detection.Created by Jessica S. Marosi · Founder & CEO, ByteLock™LicenseMIT License (see LICENSE)
 DeepSee™ and ByteLock™ are trademarks of ByteLock, Inc. Commercial use requires a separate license.© 2025 Jessica S. Marosi. All rights reserved.
 
+## Repository Structure
+
+```text
+deepsee-live/
+├── cockpit/           # Live GUI, pipeline, verdict engine (launch_gui.py)
+├── Configs/           # Thresholds, verdict templates, inference settings
+├── Diagrams/          # Architecture & on-device processing flow
+├── Evidence/          # Sample inputs + reproducible classification reports
+├── Images/            # Logos, screenshots, demo assets
+├── Pages/             # Source for GitHub Pages landing page
+├── Scripts/           # classify_tflite.py, deepsee_pipeline.py, etc.
+├── docs/              # Proof images + detailed forensic reports
+├── index.html         # Public landing → https://deepsee.live
+├── requirements.txt   # Python dependencies
+├── CNAME              # Custom domain
+├── LICENSE            # MIT License
+└── README.md
