@@ -26,7 +26,7 @@ deepsee-live/
 ├── LICENSE            # MIT License
 └── README.md
 
-# DeepSee-live Cockpit Features
+**## DeepSee-live Cockpit Features**
 
 | Feature                   | Implementation                                      |
 |---------------------------|-----------------------------------------------------|
