@@ -25,6 +25,24 @@ Highlights:
 
 ## Repository Structure
 
+deepsee-live/
+├── cockpit/                 # Live GUI cockpit, pipeline, and verdict enforcement engine
+├── Configs/                 # Model configs, threshold settings, verdict templates
+├── Diagrams/                # Architecture, data flow, and on-device pipeline diagrams
+├── Evidence/                # Sample inputs and reproducible classification reports
+├── Images/                  # Screenshots, logos, and demo assets
+├── Pages/                   # Static landing page and public demo artifacts
+├── Scripts/                 # Core inference scripts (classify_tflite.py, deepsee_pipeline.py, etc.)
+├── docs/                    # Proof images, forensic reports, and detailed documentation
+├── .gitignore
+├── CNAME                    # Custom domain support for GitHub Pages
+├── LICENSE                  # MIT License
+├── README.md                # This file
+├── index.html               # Live landing page (GitHub Pages)
+└── requirements.txt         # Python dependencies for cockpit and inference
+
+---
+
 ## Cockpit – Forensic Classification in Action
 
 The `cockpit/` directory is the heart of DeepSee™:
